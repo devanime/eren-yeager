@@ -1,0 +1,44 @@
+Host *
+  ServerAliveInterval 600
+  StrictHostKeyChecking no
+
+Host nebula
+  Hostname 18.233.1.222
+  Port 2301
+
+Host hydra
+  Hostname 18.233.1.222
+  Port 2303
+
+Host eternity
+  Hostname 18.233.1.222
+  Port 2304
+
+
+Host autoshowny
+  Hostname 34.200.168.31
+  Port 22
+
+Host broadwaydirect
+  Hostname 34.230.227.228
+  Port 22
+
+Host broadwaybridges
+  Hostname 67.43.10.185
+  Port 22
+
+Host legends
+  Hostname 104.130.13.80
+  Port 22
+
+Host nyuskirball
+  Hostname 205.186.141.44
+  Port 22
+
+Host oue-skyspace
+  Hostname 162.242.225.95
+  Port 22
+
+Host njpac
+  Hostname 3.227.31.93
+  Port 22

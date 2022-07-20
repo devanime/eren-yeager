@@ -1,0 +1,26 @@
+{
+    "name": "@devanime/eslint-config",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://www.devanimecards.io",
+    "author": "DevAnime <devanimecards@gmail.com>",
+    "contributors": [
+        "DevAnime <devanimecards@gmail.com>"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "main": "index.js",
+    "dependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-cypress": "^2.8.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-vue": "^6.2.2"
+    }
+}

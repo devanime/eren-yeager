@@ -1,0 +1,6 @@
+themes/*/tests
+composer.lock
+percy.config.json
+phpunit*
+webpack.config.js
+yarn.lock

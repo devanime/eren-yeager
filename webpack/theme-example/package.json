@@ -1,0 +1,40 @@
+{
+    "name": "theme-example",
+    "version": "1.0.0",
+    "author": "DevAnime <devanimecards@gmail.com>",
+    "contributors": [
+        "DevAnime <devanimecards@gmail.com>"
+    ],
+    "homepage": "https://www.devanimecards.io",
+    "private": true,
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "scripts": {
+        "develop": "webpack --env.NODE_ENV=development",
+        "production": "webpack --env.NODE_ENV=production",
+        "watch": "yarn develop --watch",
+        "test:vue": "",
+        "test:cypress": "cypress run --record --key insert_cypress_dashboard_project_key --project tests",
+        "cypress": "cypress open --project tests"
+    },
+    "dependencies": {
+        "@devanime/dio-brando":  "./wp-content/themes/dio-brando"
+    },
+    "devDependencies": {
+        "@devanime/eslint-config": "file:./wp-content/vendor/devanime/eren-yeager/eslint-config",
+        "@devanime/webpack": "file:./wp-content/vendor/devanime/eren-yeager/webpack"
+    },
+    "theme": {
+        "directory": "./wp-content/themes/theme-example",
+        "localUrl": "theme-example.test"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@devanime/eslint-config"
+        ]
+    }
+}

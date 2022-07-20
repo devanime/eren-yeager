@@ -1,0 +1,30 @@
+{
+    "name": "@devanime/percy",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://www.devanimecards.io",
+    "author": "DevAnime <devanimecards@gmail.com>",
+    "contributors": [
+        "DevAnime <devanimecards@gmail.com>"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bin": {
+        "devanime-percy": "./bin/cli.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "@percy/script": "^1.1.0",
+        "axios": "^0.25.0",
+        "cheerio": "^1.0.0-rc.10",
+        "del": "^6.0.0",
+        "minimist": "^1.2.5",
+        "mkdirp": "^1.0.4",
+        "puppeteer": "^5.5.0",
+        "scroll-to-bottomjs": "^1.1.0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "devanime/scripts",
+    "description": "Repo for various DevAnime-specific scripts and utilities",
+    "authors": [
+        {
+            "name": "DevAnime",
+            "email": "devanimecards@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevAnime\\": "src/"
+        }
+    },
+    "require": {},
+    "bin": [
+        "docker/test/docker-run-mysql",
+        "docker/test/docker-stop-mysql"
+    ]
+}

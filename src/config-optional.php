@@ -1,0 +1,15 @@
+<?php
+/**
+ * DevAnime License and API Keys
+ *
+ * Important: remove this file when transferring ownership
+ */
+
+return [
+'GF_LICENSE_KEY' => '6f9636571539880a81a4934a04994928',
+'VIDEO_PRODUCER_VIMEO_CLIENT_ID' => '050ca171eee3346648ea2ccd387e78f1f6b140a3',
+'VIDEO_PRODUCER_VIMEO_CLIENT_SECRET' => 'q57hSI+mq6/FYKAW4i79bxjJWq2HgzYqVOydvV86c356ZBcwmNskNH92DOOs+eFJ+gj5m0Ldn+i58A47nAhJ5hoiqP1mwX3A2C+7sUC0tIVzfSUnrBC+6JvwO6k8uBRl',
+'VIDEO_PRODUCER_VIMEO_ACCESS_TOKEN' => '5a68e6e15bdd31952bc8ef4366a68e1b',
+'VIDEO_PRODUCER_YOUTUBE_API_KEY' => 'AIzaSyCbkcvc1fRZX8gYrjE_mTOcgg6IVxKL6Dk',
+'IMAGIFY_API_KEY' => 'db8f56588d83df79151424cd7bc857607c9eea46',
+];

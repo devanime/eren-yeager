@@ -1,0 +1,15 @@
+*.log
+.htaccess
+node_modules
+bower_components
+wp/wp-content
+Thumbs.db
+.sass-cache
+.DS_Store
+.revision
+.deployment-state
+.upload-*-exclude
+.upload-exclude
+.gitignore
+.git
+.github

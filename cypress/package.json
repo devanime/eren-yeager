@@ -1,0 +1,26 @@
+{
+    "name": "@devanime/cypress",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://www.devanimecards.io",
+    "author": "DevAnime <devanimecards@gmail.com>",
+    "contributors": [
+        "DevAnime <devanimecards@gmail.com>"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bin": {
+        "devanime-cypress": "./bin/cli.js"
+    },
+    "dependencies": {
+        "cypress": "^4.9.0",
+        "@percy/cypress": "^2.3.1",
+        "@devanime/webpack": "file:../webpack",
+        "@devanime/percy": "file:../percy",
+        "minimist": "^1.2.5"
+    }
+}
