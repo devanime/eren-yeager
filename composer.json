@@ -1,6 +1,6 @@
 {
     "name": "devanime/scripts",
-    "description": "Repo for various DevAnime-specific scripts and utilities",
+    "description": "About\nBuild and configuration scripts that are required for all website builds.",
     "authors": [
         {
             "name": "DevAnime",
