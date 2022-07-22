@@ -4,9 +4,6 @@
     "private": true,
     "homepage": "https://www.devanimecards.io",
     "author": "DevAnime <devanimecards@gmail.com>",
-    "contributors": [
-        "DevAnime <devanimecards@gmail.com>"
-    ],
     "licenses": [
         {
             "type": "MIT",
